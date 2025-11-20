@@ -23,7 +23,7 @@ __pypackages__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# VS Code
+# VS Code internal settings
 .vscode/
 
 # OS files
@@ -94,27 +94,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-
-
-# -----------------------------
-# PROJECT-SPECIFIC IGNORE RULES
-# -----------------------------
-
-# ⚠️ DO NOT IGNORE data/raw → TA needs CSV files
-# So we keep:
-# data/raw/Train_Beneficiarydata.csv
-# data/raw/Train_Inpatientdata.csv
-# data/raw/Train_Outpatientdata.csv
-# data/raw/Train_labels.csv
-
-# Ignore automatically generated data
-data/processed/*
-
-# Allow the folder itself
-!data/processed/
-!data/processed/.gitkeep
-
-
-# -----------------------------
-# END OF FILE
-# -----------------------------
